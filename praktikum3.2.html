@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Form 3.2</title>
+</head>
+<body>
+
+    <div style="background: silver; width: 100%;">
+                <h3 style="text-align: center;"> A Web Page </h3>
+                <form >
+                    <input type="search" name="search" value="https://" size="185">
+                </form>
+                <br>
+    </div>
+    
+    <hr>
+    <br>
+
+    <div>
+        <table style="width: 80%; text-align: center; margin-right: 5%; margin-left: 5%; border: 1px solid;" >
+            <tr>
+                <td>Home |</td>
+                <td>Generate Link |</td>
+                <td>Transaction History |</td>
+                <td>Policy |</td>
+                <td>Logout</td>
+            </tr>
+        </table>
+    </div>
+
+    <br>
+
+
+    <div>
+        <table style="margin-left: 5%; margin-right: 5%; width: 80%;">
+            <tr>
+                <td>
+                    <img src="laptop.jpg" alt="Foto laptop" width="360" height="420">
+                    <br>
+                    <input type="submit" name="picture" value="Upload Picture">
+                </td> 
+                
+                <td>
+                    <form method="post"></form>
+                        <label>Title Here</label>
+                        <label>:</label>
+                        <input type="text" name="Title Here" value="ASUS"><br>
+
+                    <br>
+
+                    <form method="post"></form>
+                        <label>Description  : </label>
+                        <textarea name="Description" cols="40" rows="5"></textarea><br>
+
+                    <br>
+
+                    <form method="post"></form>
+                        <label> Account Number  :</label>
+                        <input type="number" name="Account Number"><br>
+                    <br>
+
+                <p> Bank  :
+                    <select name="Bank">
+                        <option value="BNI">BNI</option>
+                        <option value="BRI">BRI</option>
+                        <option value="BTN">BTN</option>
+                        <option value="Mandiri">Mandiri</option>
+                        <option value="BSI">BSI</option>
+                        <option value="CIMB Niaga">CIMB Niaga</option>
+                        <option value="BCA">BCA</option>
+                        <option value="DKI">DKI</option>
+                    </select>
+                </p>
+                    <br>
+
+                    <form method="post"></form>
+                        <label>Account Holder  :</label>
+                        <input type="text" name="Account Holder"><br>
+                    <br>
+
+                <p> Transaction  :
+                    <select name="Transaction">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </p>
+
+                <div style="color: green;">
+                    <p>* if the transaction is for 3 person, choose 3 from the drop-down list</p>
+                    <form>
+                        <input type="checkbox" id="phone1" name="phone" value="mobilephone">
+                        <label>Send to Mobile Phone</label>
+                    </form>
+                    <form>
+                        <input type="checkbox" id="email1" name="email" value="email">
+                        <label>Send to Email</label>
+                    </form>
+                </div>
+                <br>
+                
+                <form>
+                    <label>Send to Mobile Phone  :</label>
+                    <input type="text" name="phone2">
+                </form>
+                
+                <br>
+
+                <form>
+                    <label> Send to Email  :</label>
+                    <input type="text" id="email2" name="email2">
+                </form>
+
+                <br>
+
+                <input type="submit" name="Nabr Link" value="Generate Nabr Link" style="background-color: green;">
+
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
