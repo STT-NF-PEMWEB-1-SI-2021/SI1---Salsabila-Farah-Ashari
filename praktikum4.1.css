@@ -1,0 +1,61 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 5%;
+    background-color:peachpuff;
+}
+
+.welcome{
+    font-family: 'Brush script MT';
+    font-size:30px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+a{
+    margin: 30px;
+    text-decoration: none;
+}
+
+table{
+    width: 100%;
+    padding: 30px;
+    background-color: powderblue;
+}
+
+.categori{
+    text-align: right;
+}
+
+.introduction{
+    font-family: 'Brush Script MT';
+    font-size: 30px;
+}
+
+.indentasi{
+    text-indent: 50px;
+}
+
+article{
+    padding: 20px;
+}
+
+video{
+    width: 400px;
+    height: 350px;
+}
+
+.link{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer{
+    text-align: center;
+    background-color: peachpuff;
+    padding: 20px;
+}
