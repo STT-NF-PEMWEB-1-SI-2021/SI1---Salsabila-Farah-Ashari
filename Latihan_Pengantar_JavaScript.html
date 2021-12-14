@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Pengantar JavaScript</title>
+    <script>
+        // Latihan JavaScript 02
+        let nama = "Salsabila Farah Ashari";
+        let bil1 = 8;
+        let bil2 = 4;
+        console.log ("Nama saya : " + nama)
+        let bil3 = bil1 + bil2;
+        console.log (bil1 + " * " + bil2 + " = " + bil3);
+    </script>
+        
+    <script>
+        // Latihan JavaScript 03
+        function hello() {
+            let nama = "Salsabila Farah Ashari";
+            let obj = document.getElementById("hello");
+            obj.innerHTML="Hello " + nama;
+            obj.style.background = "yellow";
+        }
+    </script>
+</head>
+<body>
+    <!-- Latihan JavaScript 01 -->
+
+    <h2>Belajar JavaScript</h2>
+    <p>Saya Programmer JavaScript Pemula</p>
+
+    <p id="nf"></p>
+
+    <script>
+        document.getElementById ("nf").innerHTML = 8 + 4;
+    </script>
+    <br>
+
+    <!-- Latihan JavaScript 02 -->
+    <h2>Menggunakan console log</h2>
+    <br>
+
+    <!-- Latihan JavaScript 03 -->
+    <button onclick="hello()">Hello</button>
+    <br>
+    <span id="hello"></span>
+    <br>
+
+</body>
+</html>
